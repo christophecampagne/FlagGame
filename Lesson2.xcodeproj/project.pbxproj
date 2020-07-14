@@ -11,11 +11,11 @@
 		423501D924BCFA68004A8086 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423501D824BCFA68004A8086 /* SceneDelegate.swift */; };
 		423501DC24BCFA68004A8086 /* Lesson2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 423501DA24BCFA68004A8086 /* Lesson2.xcdatamodeld */; };
 		423501DE24BCFA68004A8086 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423501DD24BCFA68004A8086 /* ContentView.swift */; };
-		423501E024BCFA69004A8086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423501DF24BCFA69004A8086 /* Assets.xcassets */; };
 		423501E324BCFA69004A8086 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423501E224BCFA69004A8086 /* Preview Assets.xcassets */; };
 		423501E624BCFA69004A8086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423501E424BCFA69004A8086 /* LaunchScreen.storyboard */; };
 		423501F124BCFA69004A8086 /* Lesson2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423501F024BCFA69004A8086 /* Lesson2Tests.swift */; };
 		423501FC24BCFA69004A8086 /* Lesson2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423501FB24BCFA69004A8086 /* Lesson2UITests.swift */; };
+		4235020A24BD7B68004A8086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4235020924BD7B68004A8086 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		423501D824BCFA68004A8086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		423501DB24BCFA68004A8086 /* Lesson2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lesson2.xcdatamodel; sourceTree = "<group>"; };
 		423501DD24BCFA68004A8086 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		423501DF24BCFA69004A8086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		423501E224BCFA69004A8086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		423501E524BCFA69004A8086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		423501E724BCFA69004A8086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		423501F724BCFA69004A8086 /* Lesson2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		423501FB24BCFA69004A8086 /* Lesson2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson2UITests.swift; sourceTree = "<group>"; };
 		423501FD24BCFA69004A8086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4235020924BD7B68004A8086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				423501D624BCFA68004A8086 /* AppDelegate.swift */,
 				423501D824BCFA68004A8086 /* SceneDelegate.swift */,
 				423501DD24BCFA68004A8086 /* ContentView.swift */,
-				423501DF24BCFA69004A8086 /* Assets.xcassets */,
+				4235020924BD7B68004A8086 /* Assets.xcassets */,
 				423501E424BCFA69004A8086 /* LaunchScreen.storyboard */,
 				423501E724BCFA69004A8086 /* Info.plist */,
 				423501DA24BCFA68004A8086 /* Lesson2.xcdatamodeld */,
@@ -245,7 +245,7 @@
 			files = (
 				423501E624BCFA69004A8086 /* LaunchScreen.storyboard in Resources */,
 				423501E324BCFA69004A8086 /* Preview Assets.xcassets in Resources */,
-				423501E024BCFA69004A8086 /* Assets.xcassets in Resources */,
+				4235020A24BD7B68004A8086 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
